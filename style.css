@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #51bfce;
+}
+
+.content-container{
+    min-height: 100vh;
+    width: 100%;
+}
+
+.lesson-title{
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+}
+
+.lesson-title .lesson-title-inner{
+    width: 60%;
+    margin: auto;
+}
+.lesson-title .lesson-title-inner{
+    text-align: center;
+}
+.lesson-body{
+    width: 100%;
+    margin: 20px auto;
+}
+.lesson-body .form-container{
+    width: 60%;
+    margin: auto;
+    display: block;
+    margin-bottom: 15px;
+}
+.lesson-body .form-container > form > textarea, input[type='submit']{
+    width: 100%;
+}
+.lesson-body .form-container > form > textarea{
+    padding: 10px;
+    resize: none;
+
+}
+.lesson-body .form-container > form > input[type='submit']{
+    padding: 10px 0px;
+    margin-top: 10px;
+}
+.lesson-body .lesson-inner{
+    width: 60%;
+    margin: auto;
+    display: block;
+    margin-bottom: 15px;
+}
+.lesson-body .lesson-inner .lesson-right{
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+}
